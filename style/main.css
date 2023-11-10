@@ -514,6 +514,7 @@ section .row span {
 #hero .hero-cta {
   display: flex;
 }
+
 @media (max-width: 56.25em) {
   #hero .hero-cta {
     justify-content: center;
@@ -681,4 +682,3 @@ section .row span {
     transform: none;
   }
 }/*# sourceMappingURL=main.css.map */
-

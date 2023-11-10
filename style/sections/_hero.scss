@@ -128,3 +128,23 @@
     top: 90%;
   }
 }
+.hero-cta {
+  display: flex;
+
+  @include respond(tab-port) {
+    justify-content: center;
+  }
+
+  & a {
+    font-size: 2.4rem;
+    margin-right: 20px; // Adiciona margem à direita
+
+    &:last-child {
+      margin-right: 0; // Remove a margem do último botão
+    }
+
+    @include respond(phone) {
+      font-size: 2rem;
+    }
+  }
+}
