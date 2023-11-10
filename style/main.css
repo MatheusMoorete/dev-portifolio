@@ -121,6 +121,7 @@ a:hover {
 
 /* Hero Style */
 .cta-btn--hero {
+  text-align: center; 
   color: #5b86e5;
   -webkit-text-fill-color: #5b86e5;
   border: 2px solid transparent;
@@ -534,6 +535,7 @@ section .row span {
   left: 50%;
   bottom: 20px;
   transform: translateX(-50%);
+  margin-top: -5rem; /* Ajuste a margem superior conforme necessário */
 }
 
 .scroll-down {
@@ -542,6 +544,7 @@ section .row span {
   border: 2px solid #000000;
   border-radius: 50px;
   cursor: pointer;
+  position: relative;
 }
 .scroll-down::before, .scroll-down::after {
   height: 10px;
@@ -682,3 +685,4 @@ section .row span {
     transform: none;
   }
 }/*# sourceMappingURL=main.css.map */
+
